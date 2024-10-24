@@ -74,7 +74,7 @@ class History extends Component {
                   key={eachHistory.id}
                   historyDetails={eachHistory}
                   onDeleteHistory={this.onDeleteHistory}
-                  componentDidMount ={this.componentDidMount}
+                  componentDidMount={this.componentDidMount}
                 />
               ))
             )}
